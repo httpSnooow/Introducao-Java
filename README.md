@@ -6,7 +6,7 @@
 
   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
   ![Swing](https://img.shields.io/badge/Java_Swing-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-  ![IO](https://img.shields.io/badge/Java%20serialização-brown?style=for-the-badge&logo=files&logoColor=white)
+  ![IO](https://img.shields.io/badge/Java_I%2FO-serialização-black?style=for-the-badge&logo=files&logoColor=white)
 
 </div>
 
@@ -62,4 +62,3 @@ Algoritmos de processamento de texto e validação.
 * Validação de tamanho e formato.
 * Extração (`substring`) e Substituição (`replace`).
 * Verificação de prefixos e sufixos (`startsWith`).
-
