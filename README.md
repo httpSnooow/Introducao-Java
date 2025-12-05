@@ -1,57 +1,65 @@
-☕ Repositório de Estudos Java: Da Lógica a uma Aplicação Desktop
+# ☕ Java: Da Lógica à Aplicação Desktop
 
-Este repositório documenta minha jornada de estudos em Java, começando dos conceitos fundamentais de lógica e POO até a construção de uma aplicação desktop funcional com interface gráfica.
+> Um repositório documental da minha jornada de estudos em Java, evoluindo dos conceitos fundamentais de lógica e POO até a construção de uma aplicação desktop funcional com persistência de dados.
 
-✨ Projeto Principal: Agenda de Contatos (Java Swing)
+<div align="center">
 
-O destaque do repositório é uma aplicação desktop completa para gerenciamento de contatos. Este projeto prático implementa um CRUD (Create, Read, Update, Delete) e solidifica conceitos-chave de desenvolvimento de software.
+  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+  ![Swing](https://img.shields.io/badge/Java_Swing-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+  ![IO](https://img.shields.io/badge/Java%20serialização-brown?style=for-the-badge&logo=files&logoColor=white)
 
-Principais Habilidades e Funcionalidades:
+</div>
 
-Desenvolvimento de GUI com Java Swing: Construção de uma interface de usuário visual e interativa utilizando componentes como JFrame, JPanel, JTable, JTextField e JButton.
+---
 
-Operações CRUD: Implementação das quatro operações essenciais de dados:
+## 🏆 Destaque: Agenda de Contatos (CRUD)
 
-Incluir: Adicionar novos contatos.
+O projeto principal deste repositório é uma aplicação desktop completa para gerenciamento de contatos. Ela consolida todo o aprendizado em **Interface Gráfica** e **Persistência de Arquivos**.
 
-Consultar: Buscar contatos por nome ou código.
+### 📸 Funcionalidades
+A aplicação implementa um ciclo completo de **CRUD** (Create, Read, Update, Delete) com as seguintes capacidades:
 
-Alterar: Atualizar informações de contatos existentes.
+| Operação | Descrição |
+| :--- | :--- |
+| 🆕 **Incluir** | Adiciona novos contatos à lista através de formulários validados. |
+| 🔍 **Consultar** | Sistema de busca dinâmica por nome ou código do contato. |
+| ✏️ **Alterar** | Permite a edição de dados de contatos já cadastrados. |
+| ❌ **Excluir** | Remove contatos da agenda e atualiza a visualização imediatamente. |
 
-Excluir: Remover contatos da agenda.
+### 🛠️ Engenharia do Projeto
+* **Visualização Dinâmica:** Utilização de `JTable` para renderizar os dados, atualizando a interface automaticamente após cada operação.
+* **Persistência (Serialização):** Diferente de bancos de dados tradicionais, este projeto aplica conceitos de **Java I/O**. Utilizamos `ObjectOutputStream` para serializar os objetos e salvar em um arquivo binário (`agenda.dat`), garantindo que os dados não se percam ao fechar o programa.
 
-Persistência de Dados com Serialização: Utilização de ObjectOutputStream e ObjectInputStream para salvar (serializar) e carregar (desserializar) os contatos em um arquivo binário (agenda.dat). Isso garante que os dados persistam mesmo após o fechamento da aplicação.
+---
 
-Visualização Dinâmica: Uso de JTable para exibir todos os contatos em uma tabela que é atualizada automaticamente após cada operação.
+## 📚 A Jornada de Aprendizado
 
-🚀 Exercícios e Conceitos Fundamentais
+Além do projeto final, este repositório contém diversos exercícios práticos focados em dominar a sintaxe e os paradigmas do Java.
 
-Além da aplicação principal, o repositório contém uma vasta coleção de exercícios focados em conceitos específicos, demonstrando proficiência em:
+### 1. Programação Orientada a Objetos (POO)
+Modelagem de classes para resolver problemas do mundo real e cálculos matemáticos.
 
-Programação Orientada a Objetos (POO):
+<details>
+<summary><b>🔻 Clique para expandir os tópicos de POO</b></summary>
 
-Modelagem de Entidades: Criação de classes para simular cenários do mundo real, como ContaPoupanca (com métodos sacar()/depositar()), Paciente (cálculo de IMC) e Funcionario (cálculo de salário e impostos).
+| Domínio | Exercício | Conceitos Aplicados |
+| :--- | :--- | :--- |
+| **Finanças** | `ContaPoupanca` | Encapsulamento, métodos `sacar()` e `depositar()`. |
+| **Saúde** | `Paciente` | Lógica de cálculo de IMC e classificação de risco. |
+| **RH** | `Funcionario` | Regras de negócio para cálculo de salário líquido e impostos. |
+| **Geometria** | `Triangulo`, `Esfera` | Fórmula de Heron, herança e cálculos de volume/área. |
 
-Modelagem Geométrica: Classes para cálculos complexos de geometria, como Triangulo (Fórmula de Heron, classificação), Cilindro, Cone e Esfera (cálculos de área e volume).
+</details>
 
-Estruturas de Dados e Coleções:
+### 2. Estruturas de Dados & Coleções
+Exercícios focados em performance e organização de dados em memória.
 
-Utilização de HashSet para garantir a unicidade de elementos (ex: 50 números aleatórios).
+* **HashSet:** Implementação de coleções que garantem a **unicidade** (ex: geração de 50 números aleatórios sem repetição).
+* **Arrays:** Manipulação clássica de vetores de booleanos e tipos primitivos.
 
-Manipulação de Arrays de booleanos e Strings.
+### 3. Manipulação de Strings
+Algoritmos de processamento de texto e validação.
+* Validação de tamanho e formato.
+* Extração (`substring`) e Substituição (`replace`).
+* Verificação de prefixos e sufixos (`startsWith`).
 
-Lógica e Manipulação de Strings:
-
-Exercícios de processamento de texto, incluindo validação de tamanho, iteração de caracteres, extração de substrings (substring), substituição (replace) e verificação de prefixos (startsWith).
-
-🛠️ Tecnologias e Conceitos Chave
-
-Linguagem: Java
-
-Biblioteca de GUI: Java Swing
-
-Conceitos de POO: Encapsulamento, Construtores, Métodos
-
-Persistência: Serialização de Objetos (Java I/O)
-
-Estruturas: HashSet, Arrays
