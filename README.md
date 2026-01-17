@@ -1,4 +1,4 @@
-# ☕ Java: Da Lógica à Aplicação Desktop
+# Java: Da Lógica à Aplicação Desktop
 
 > Um repositório documental da minha jornada de estudos em Java, evoluindo dos conceitos fundamentais de lógica e POO até a construção de uma aplicação desktop funcional com persistência de dados.
 
@@ -12,27 +12,27 @@
 
 ---
 
-## 🏆 Destaque: Agenda de Contatos (CRUD)
+## Destaque: Agenda de Contatos (CRUD)
 
 O projeto principal deste repositório é uma aplicação desktop completa para gerenciamento de contatos. Ela consolida todo o aprendizado em **Interface Gráfica** e **Persistência de Arquivos**.
 
-### 📸 Funcionalidades
+### Funcionalidades
 A aplicação implementa um ciclo completo de **CRUD** (Create, Read, Update, Delete) com as seguintes capacidades:
 
 | Operação | Descrição |
 | :--- | :--- |
-| 🆕 **Incluir** | Adiciona novos contatos à lista através de formulários validados. |
-| 🔍 **Consultar** | Sistema de busca dinâmica por nome ou código do contato. |
-| ✏️ **Alterar** | Permite a edição de dados de contatos já cadastrados. |
-| ❌ **Excluir** | Remove contatos da agenda e atualiza a visualização imediatamente. |
+| **Incluir** | Adiciona novos contatos à lista através de formulários validados. |
+| **Consultar** | Sistema de busca dinâmica por nome ou código do contato. |
+| **Alterar** | Permite a edição de dados de contatos já cadastrados. |
+| **Excluir** | Remove contatos da agenda e atualiza a visualização imediatamente. |
 
-### 🛠️ Engenharia do Projeto
+### Engenharia do Projeto
 * **Visualização Dinâmica:** Utilização de `JTable` para renderizar os dados, atualizando a interface automaticamente após cada operação.
 * **Persistência (Serialização):** Diferente de bancos de dados tradicionais, este projeto aplica conceitos de **Java I/O**. Utilizamos `ObjectOutputStream` para serializar os objetos e salvar em um arquivo binário (`agenda.dat`), garantindo que os dados não se percam ao fechar o programa.
 
 ---
 
-## 📚 A Jornada de Aprendizado
+## A Jornada de Aprendizado
 
 Além do projeto final, este repositório contém diversos exercícios práticos focados em dominar a sintaxe e os paradigmas do Java.
 
